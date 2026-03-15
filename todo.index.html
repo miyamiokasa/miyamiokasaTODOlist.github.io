@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Todo App</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet"
+href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+<body>
+<div class="main-box">
+<h1 class="todo-title">TODO APP</h1>
+<div class="input-area">
+<div class="input-group">
+<span class="input-group-addon">
+<i class="glyphicon glyphicon-pencil"></i>
+</span>
+<input type="text"
+id="box"
+class="form-control"
+placeholder="write your todo here">
+</div>
+<br>
+<input type="button"
+class="btn btn-primary"
+value="Add"
+onclick="add_item()">
+</div>
+<ul id="list_item"></ul>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
